@@ -22,7 +22,7 @@
   grid-template-columns: repeat(5, 1fr);
   padding: 1em;
   gap: 1em;
-  background-color: rgb(77, 58, 201);
+  background: rgb(77, 58, 201);
 }
 
 .book {
@@ -32,15 +32,18 @@
   padding: 1em;
   height: 250px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .book div {
   flex: 1;
+  flex-wrap: wrap;
 }
 
 .book h2 {
   font-size: 16px;
   margin-bottom: 0.5em;
+  flex-wrap: wrap;
 }
 
 .author {
@@ -111,4 +114,5 @@
 
 .add-book-btn:hover {
   cursor: pointer;
+  flex-wrap: wrap;
 }
